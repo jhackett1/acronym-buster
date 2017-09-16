@@ -4,12 +4,19 @@
   "description": "A quiz game to test your knowledge of government acronyms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
   },
   "author": "Joshua Hackett",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.1",
+    "ejs": "^2.5.7",
     "express": "^4.15.4",
+    "express-validator": "^4.1.1",
     "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
