@@ -1,0 +1,15 @@
+{
+  "name": "acronym-buster",
+  "version": "1.0.0",
+  "description": "A quiz game to test your knowledge of government acronyms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Hackett",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  }
+}
