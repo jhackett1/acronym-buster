@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const expressValidator = require('express-validator');
 
 // Define a port and the location of the Mongo DB
-const port = process.env.port || 80;
+const port = process.env.port || 3000;
 const mongoUrl = 'mongodb://localhost:27017/acronym-buster';
 
 // Get the express app
