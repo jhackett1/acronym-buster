@@ -4,7 +4,7 @@ const expressValidator = require('express-validator');
 
 // Define a port and the location of the Mongo DB
 const port = process.env.PORT || 3000;
-const mongoUrl = 'mongodb://localhost:27017/acronym-buster';
+const mongoUrl = process.env.MONGODB_URI || 'mongodb://localhost:27017/acronym-buster';
 
 // Get the express app
 const app = express();
