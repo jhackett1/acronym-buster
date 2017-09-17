@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const expressValidator = require('express-validator');
 
-// Define a port and the location of the Mongo DB
+// Define a port and the location of the Mongo DB, using environment variables to work with heroku
 const port = process.env.PORT || 3000;
 const mongoUrl = process.env.MONGODB_URI || 'mongodb://localhost:27017/acronym-buster';
 
